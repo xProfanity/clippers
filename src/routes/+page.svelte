@@ -1,5 +1,11 @@
-<main class="h-screen w-full flex flex-col justify-center items-center gap-5">
-  <p class="text-sm font-bold text-red-500 animate-bounce">I have no idea</p>
+<script>
+  import { HeroSection } from "$lib/index.js";
+</script>
+
+<main class="h-auto w-full flex flex-col justify-start items-center gap-5">
+  <div class="h-screen w-full flex flex-col justify-center items-center">
+    <HeroSection />
+  </div>
 
   <a href="/about/fresh-cut">Get a fresh-cut</a>
 </main>

@@ -1,1 +1,5 @@
-// Reexport your entry components here
+import HeroSection from "./HeroSection.svelte";
+
+export {
+    HeroSection
+};
