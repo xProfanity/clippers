@@ -1,3 +1,3 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main class="h-screen w-full flex flex-col justify-center items-center">
+  <p class="text-sm font-bold text-red-500 animate-bounce">I have no idea</p>
+</main>
