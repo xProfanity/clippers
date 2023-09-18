@@ -2,4 +2,12 @@
   import "../app.css";
 </script>
 
-<slot />
+<main>
+  <nav>
+    <p>Navbar</p>
+  </nav>
+  <slot />
+  <footer>
+    <p>Footer</p>
+  </footer>
+</main>
