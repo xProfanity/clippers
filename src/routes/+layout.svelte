@@ -1,10 +1,11 @@
 <script>
   import "../app.css";
+  import { Navbar } from "$lib/index.js";
 </script>
 
 <main>
   <nav>
-    <p>Navbar</p>
+    <Navbar />
   </nav>
   <slot />
   <footer>
