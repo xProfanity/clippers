@@ -7,3 +7,11 @@ export async function fetchProducts() {
 
     return results
 }
+
+export async function fetchSpecials() {
+    const query = `*[_type == "special"]`
+
+    const results = await client.fetch(query)
+
+    return results
+}

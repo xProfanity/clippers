@@ -1,9 +1,11 @@
-import { fetchProducts } from "$lib/index.js";
+import { fetchProducts, fetchSpecials } from "$lib/index.js";
 
 export async function load() {
-    const blogs = await fetchProducts()
+    const products = await fetchProducts()
+    const specials = await fetchSpecials()
 
     return {
-        blogs
+        products,
+        specials
     }
 }

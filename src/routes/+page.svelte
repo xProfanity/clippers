@@ -3,6 +3,7 @@
     HeroSection,
     Mid,
     Services,
+    Specials,
     SubWelcome,
     Welcome,
   } from "$lib/index.js";
@@ -19,7 +20,9 @@
 
   <SubWelcome />
 
-  <Services products={data.blogs} />
+  <Services products={data.products} />
 
   <Mid />
+
+  <Specials specials={data.specials} />
 </main>
