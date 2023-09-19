@@ -1,5 +1,5 @@
 <script>
-  import { Navbar } from "$lib/index.js";
+  import { Footer, Navbar } from "$lib/index.js";
   import "../app.css";
 </script>
 
@@ -9,6 +9,6 @@
   </nav>
   <slot />
   <footer>
-    <p>Footer</p>
+    <Footer />
   </footer>
 </main>

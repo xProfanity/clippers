@@ -5,6 +5,7 @@
     Services,
     Specials,
     SubWelcome,
+    Testimonials,
     Welcome,
   } from "$lib/index.js";
 
@@ -25,4 +26,6 @@
   <Mid />
 
   <Specials specials={data.specials} />
+
+  <Testimonials testimonials={data.testimonials} />
 </main>

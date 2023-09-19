@@ -15,3 +15,11 @@ export async function fetchSpecials() {
 
     return results
 }
+
+export async function fetchTestimonials() {
+    const query = `*[_type == "testimonials"]`
+
+    const results = await client.fetch(query)
+
+    return results
+}
