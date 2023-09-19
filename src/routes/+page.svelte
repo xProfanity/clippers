@@ -3,7 +3,7 @@
 </script>
 
 <main class="h-auto w-full flex flex-col justify-start items-center gap-5">
-  <div class="h-screen w-full flex flex-col justify-center items-center">
+  <div class="h-[150vh] w-full flex flex-col justify-center items-center">
     <HeroSection />
   </div>
 

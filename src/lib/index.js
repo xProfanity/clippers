@@ -4,8 +4,11 @@ import Navbar from "./components/Navbar.svelte";
 import Barbershop from './images/barbershop.jpg';
 import Clipper from './images/clipper.png';
 import Clippers from './images/clippers.jpg';
+import ClippersLogo from './images/clippers.png';
 import Cuts from './images/cuts.jpg';
 import Eugene from './images/eugene.jpg';
 
-export { Barbershop, Clipper, Clippers, Cuts, Eugene, HeroSection, Navbar };
+import { MenuItems } from "./constants.js";
+
+export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Navbar };
 
