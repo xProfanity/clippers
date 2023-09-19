@@ -1,7 +1,11 @@
 <script>
-  // @ts-nocheck
-
-  import { HeroSection, Services, SubWelcome, Welcome } from "$lib/index.js";
+  import {
+    HeroSection,
+    Mid,
+    Services,
+    SubWelcome,
+    Welcome,
+  } from "$lib/index.js";
 
   export let data;
 </script>
@@ -16,4 +20,6 @@
   <SubWelcome />
 
   <Services products={data.blogs} />
+
+  <Mid />
 </main>

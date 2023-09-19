@@ -1,4 +1,5 @@
 import HeroSection from "./components/HeroSection.svelte";
+import Mid from "./components/Mid.svelte";
 import Navbar from "./components/Navbar.svelte";
 import Services from "./components/Services.svelte";
 import SubWelcome from "./components/SubWelcome.svelte";
@@ -16,5 +17,5 @@ import { MenuItems } from "./constants.js";
 import { urlFor } from "./client/sanity.js";
 import { fetchProducts } from "./services/sanity.js";
 
-export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Navbar, Services, SubWelcome, Welcome, fetchProducts, urlFor };
+export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Mid, Navbar, Services, SubWelcome, Welcome, fetchProducts, urlFor };
 
