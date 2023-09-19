@@ -40,5 +40,9 @@
   },
   "svelte": "./dist/index.js",
   "type": "module",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@sanity/client": "^6.4.12",
+    "@sanity/image-url": "^1.0.2"
+  }
 }
