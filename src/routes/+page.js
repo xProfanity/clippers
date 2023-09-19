@@ -1,20 +1,9 @@
-import { createClient } from '@sanity/client'
-import imgUrlBuilder from '@sanity/image-url'
+import { fetchProducts } from "$lib/index.js";
 
-import { SECRET_SANITY_PROJECT_ID, SECRET_SANITY_TOKEN } from '$env/static/private'
+export async function load() {
+    const blogs = await fetchProducts()
 
-const client = createClient({
-    projectId: SECRET_SANITY_PROJECT_ID,
-    dataset: "production",
-    apiVersion: "2023-09-19",
-    useCdn: false,
-    token: SECRET_SANITY_TOKEN
-})
-
-const builder = imgUrlBuilder(client)
-
-const urlFor = (source) => builder.image(source);
-
-export {
-    client, urlFor
+    return {
+        blogs
+    }
 }

@@ -1,5 +1,9 @@
 <script>
+  // @ts-nocheck
+
   import { HeroSection, Services, SubWelcome, Welcome } from "$lib/index.js";
+
+  export let data;
 </script>
 
 <main class="h-auto w-full flex flex-col justify-start items-center gap-5">
@@ -11,5 +15,5 @@
 
   <SubWelcome />
 
-  <Services />
+  <Services products={data.blogs} />
 </main>

@@ -13,5 +13,8 @@ import Eugene from './images/eugene.jpg';
 
 import { MenuItems } from "./constants.js";
 
-export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Navbar, Services, SubWelcome, Welcome };
+import { urlFor } from "./client/sanity.js";
+import { fetchProducts } from "./services/sanity.js";
+
+export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Navbar, Services, SubWelcome, Welcome, fetchProducts, urlFor };
 

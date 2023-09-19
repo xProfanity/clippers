@@ -6,7 +6,18 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface Platform {}
+
+		type Products = Product[]
+
+		interface Product {
+			_id: string;
+			title: string;
+			image: {_type: string; asset: Object};
+			price: Number;
+			duration: number;
+		}
 	}
 }
 
-export {};
+export { };
+
