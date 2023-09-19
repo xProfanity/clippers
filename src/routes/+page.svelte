@@ -1,5 +1,5 @@
 <script>
-  import { HeroSection, Welcome } from "$lib/index.js";
+  import { HeroSection, SubWelcome, Welcome } from "$lib/index.js";
 </script>
 
 <main class="h-auto w-full flex flex-col justify-start items-center gap-5">
@@ -9,5 +9,5 @@
 
   <Welcome />
 
-  <a href="/about/fresh-cut">Get a fresh-cut</a>
+  <SubWelcome />
 </main>
