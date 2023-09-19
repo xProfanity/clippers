@@ -6,3 +6,13 @@
     font-family: 'clippers';
     src: url(./lib/font/clippers.ttf);
 }
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(60, 236, 60);
+    border-radius: 12px;
+}

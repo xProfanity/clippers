@@ -8,8 +8,9 @@
   <div
     class="h-full w-[88%] bg-slate-200 flex flex-row justify-between items-center px-4 rounded-2xl"
   >
-    <img src={ClippersLogo} alt="clippers logo" class="h-12 object-contain" />
-
+    <a href="/">
+      <img src={ClippersLogo} alt="clippers logo" class="h-12 object-contain" />
+    </a>
     <u
       class="h-full w-auto flex flex-row justify-center items-center gap-6 list-none"
     >

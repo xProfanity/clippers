@@ -16,8 +16,8 @@
         The unregrettable visit in town
       </p>
       <p class="text-white font-bold text-4xl w-1/2 text-center">
-        Get your style satisfied with <span class="text-green-500 uppercase"
-          >top talent</span
+        Get your style satisfied with <span
+          class="text-green-500 uppercase font-clippers">top talent</span
         > clippers
       </p>
     </div>
