@@ -1,9 +1,9 @@
 <script>
-  import "../app.css";
   import { Navbar } from "$lib/index.js";
+  import "../app.css";
 </script>
 
-<main>
+<main class="bg-slate-200">
   <nav>
     <Navbar />
   </nav>

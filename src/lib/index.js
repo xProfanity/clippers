@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection.svelte";
 import Navbar from "./components/Navbar.svelte";
+import Welcome from "./components/Welcome.svelte";
 
 import Barbershop from './images/barbershop.jpg';
 import Clipper from './images/clipper.png';
@@ -10,5 +11,5 @@ import Eugene from './images/eugene.jpg';
 
 import { MenuItems } from "./constants.js";
 
-export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Navbar };
+export { Barbershop, Clipper, Clippers, ClippersLogo, Cuts, Eugene, HeroSection, MenuItems, Navbar, Welcome };
 

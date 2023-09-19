@@ -12,10 +12,10 @@
       <img src={ClippersLogo} alt="clippers logo" class="h-12 object-contain" />
     </a>
     <u
-      class="h-full w-auto flex flex-row justify-center items-center gap-6 list-none"
+      class="h-full w-auto flex flex-row justify-center items-center gap-6 list-none no-underline"
     >
       {#each MenuItems as item}
-        <li class="text-xl capitalize font-thin no-underline font-clippers">
+        <li class="text-xl capitalize font-thin font-clippers">
           <a href={item.link}>{item.name}</a>
         </li>
       {/each}
