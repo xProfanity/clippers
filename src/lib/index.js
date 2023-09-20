@@ -1,3 +1,4 @@
+import BookForm from "./components/BookForm.svelte";
 import Footer from "./components/Footer.svelte";
 import HeroSection from "./components/HeroSection.svelte";
 import Mid from "./components/Mid.svelte";
@@ -23,5 +24,5 @@ import { MenuItems } from "./constants.js";
 import { urlFor } from "./client/sanity.js";
 import { fetchProducts, fetchSpecials, fetchTestimonials } from "./services/sanity.js";
 
-export { Barbershop, Beard, Chair, Chairs, Clipper, Clippers, ClippersLogo, Cuts, Eugene, Footer, HeroSection, MenuItems, Mid, Navbar, Services, Specials, SubWelcome, Testimonials, Welcome, fetchProducts, fetchSpecials, fetchTestimonials, urlFor };
+export { Barbershop, Beard, BookForm, Chair, Chairs, Clipper, Clippers, ClippersLogo, Cuts, Eugene, Footer, HeroSection, MenuItems, Mid, Navbar, Services, Specials, SubWelcome, Testimonials, Welcome, fetchProducts, fetchSpecials, fetchTestimonials, urlFor };
 

@@ -1,5 +1,6 @@
 <script>
   import {
+    BookForm,
     HeroSection,
     Mid,
     Services,
@@ -28,4 +29,6 @@
   <Specials specials={data.specials} />
 
   <Testimonials testimonials={data.testimonials} />
+
+  <BookForm />
 </main>

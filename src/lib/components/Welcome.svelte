@@ -12,7 +12,7 @@
     <div class="flex flex-col justify-center items-start">
       <p class="text-green-500 font-clippers text-6xl">welcome</p>
       <p class="text-4xl font-bold">
-        to <span class="text-green-500">clippers</span> barbershop
+        to <span class="text-green-500 font-clippers">clippers</span> barbershop
       </p>
     </div>
 
