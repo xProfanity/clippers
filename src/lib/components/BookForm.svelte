@@ -2,8 +2,17 @@
   import { Barbershop } from "$lib/index.js";
 </script>
 
+<div class="h-[50vh] w-full flex flex-col justify-center items-center">
+  <p class="font-bold text-4xl">
+    book <span class="text-green-500 font-clippers">your sit</span> now
+  </p>
+  <p class="mt-6 w-2/3 text-center font-serif text-lg">
+    reserve your sit so you find it empty when on your scheduled visit
+  </p>
+</div>
+
 <div class="h-screen w-full justify-center items-center flex flex-col">
-  <div class="h-2/3 w-full flex flex-col justify-center items-center relative">
+  <div class="h-full w-full flex flex-col justify-center items-center relative">
     <div class="absolute h-full w-full">
       <img src={Barbershop} alt="clippers" class="h-full w-full object-cover" />
     </div>
